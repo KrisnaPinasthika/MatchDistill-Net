@@ -1,0 +1,18 @@
+--data_path ../dataset/nyu/official_splits/test/
+--gt_path ../dataset/nyu/official_splits/test/
+--filenames_file ./train_test_inputs/nyudepthv2_test_files_with_gt.txt
+--input_height 480
+--input_width 640
+--max_depth 10
+--min_depth 1e-3
+--data_path_eval ../dataset/nyu/official_splits/test/
+--gt_path_eval ../dataset/nyu/official_splits/test/
+--filenames_file_eval ./train_test_inputs/nyudepthv2_test_files_with_gt.txt
+--min_depth_eval 1e-3
+--max_depth_eval 10
+--eigen_crop
+--dataset nyu
+
+--checkpoint_path ./checkpoints/ASPP_RetrainNoTeacher_21-Dec_09-47-nodebs18-tep25-lr0.000359-wd0.1-90dbfba8-0130-4b84-b3ba-47b6bbc1f856_best.pt
+--save_dir ASPP_RetrainNoTeacher
+

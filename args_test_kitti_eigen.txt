@@ -1,0 +1,18 @@
+--data_path ../dataset/kitti_dataset
+--gt_path ../dataset/kitti_dataset
+--filenames_file ./train_test_inputs/kitti_eigen_train_files_with_gt.txt
+--input_height 376
+--input_width 1241
+--min_depth 1e-3
+--max_depth 80
+--data_path_eval ../dataset/kitti_dataset/raw
+--gt_path_eval ../dataset/kitti_dataset/gts/
+--filenames_file_eval ./train_test_inputs/kitti_eigen_test_files_with_gt.txt
+--min_depth_eval 1e-3
+--max_depth_eval 80
+--garg_crop
+--do_kb_crop
+--dataset kitti
+
+--checkpoint_path ./checkpoints/KITTI_ASPP_10_22-Dec_14-40-nodebs18-tep25-lr0.000359-wd0.1-a4b7525d-4c5b-482a-988f-98ce9cd9328a_best.pt
+--save_dir viz_KITTI_ASPP_10

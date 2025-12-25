@@ -1,0 +1,27 @@
+--name ASPP_ProposedLoss
+--bs 21
+--same-lr
+--validate_every 250
+--dataset nyu
+--lr 0.000359
+--wd 0.1
+--div_factor 25
+--final_div_factor 100
+--epochs 25
+--workers 6
+--root .
+--data_path ../dataset/nyu/sync/
+--gt_path ../dataset/nyu/sync/
+--filenames_file ./train_test_inputs/nyudepthv2_train_files_with_gt.txt
+--input_height 416
+--input_width 544
+--min_depth 0.001
+--max_depth 10
+--do_random_rotate
+--degree 2.5
+--data_path_eval ../dataset/nyu/official_splits/test/
+--gt_path_eval ../dataset/nyu/official_splits/test/
+--filenames_file_eval ./train_test_inputs/nyudepthv2_test_files_with_gt.txt
+--min_depth_eval 1e-3
+--max_depth_eval 10
+--eigen_crop
