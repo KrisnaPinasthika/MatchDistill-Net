@@ -2,8 +2,8 @@
 /PreviousWorks
 /Visualization
 dataloader.py
-evaluate.py 
-loss.py 
-model_io.py 
-train.py 
+evaluate.py
+loss.py
+model_io.py
+train.py
 utils.py
