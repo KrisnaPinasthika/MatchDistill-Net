@@ -1,7 +1,5 @@
 # MatchDistill-Net
 Official implementation for MatchDistill-Net: Knowledge Distillation of Global Context from Transformers to Convolutional Networks for Monocular Depth Estimation. <br>
-<i><b>Notes:</b> The weights and details of our proposed model will be made available upon acceptance</i>
-<!-- The full version of the data collection, training, and testing strategies, how to use the model, and so on, will be explained later after acceptance for publication. -->
 
 # Workspace and Dataset Preparation
 ```
